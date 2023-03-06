@@ -1,0 +1,151 @@
+body {
+  background-color: #74B72E;
+  color: whitesmoke;
+  font-family: 'Tilt Neon', cursive;
+  transition: .3s;
+}
+
+.titleContainer,
+.gameContainer,
+.letterContainer {
+  position: absolute;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Title */
+
+.titleContainer {
+  left: 38%;
+}
+
+/* Letters */
+
+.letterContainer {
+  left: 20%;
+  top: 25%;
+}
+
+.letters {
+  position: relative;
+  left: 5%;
+  width: 1100px;
+}
+
+.letters1 {
+  position: absolute;
+  top: 20px;
+}
+
+.letters2 {
+  position: absolute;
+  top: 100px;
+}
+
+.letter {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2.5px 2.5px;
+  color: #232323;
+  display: inline-block;
+  font-size: 2rem;
+  height: 45px;
+  margin: 15px;
+
+  width: 45px;
+}
+
+/* Game */
+
+.gameContainer {
+  left: 23%;
+  margin: auto;
+  width: 50%;
+  top: 65%;
+}
+
+.game {
+  font-size: 3rem;
+  letter-spacing: .2rem;
+}
+
+.hint {
+  color: whitesmoke;
+  left: 25%;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  top: -18%;
+  width: 50%;
+}
+
+/* Buttons */
+
+.hintBtn {
+  background-color: rgba(255, 255, 143, 1);
+  border: solid 2px #232323;
+  border-radius: 10px;
+  color: #232323;
+  font: inherit;
+  font-size: 1.2rem;
+  height: 40px;
+  opacity: 0;
+  margin: none;
+  position: absolute;
+  top: -20%;
+  width: 80px;
+}
+
+.hintBtn:hover {
+  background-color: rgba(255, 255, 143, .7);
+}
+
+.startBtn {
+  border: solid 1px whitesmoke;
+  border-radius: 10px;
+  color: whitesmoke;
+  font: inherit;
+  font-size: 1.2rem;
+  height: 40px;
+  width: 80px;
+  transition: .3s;
+}
+
+
+.win {
+  background-color: #74B72E;
+}
+
+.loss {
+  background-color: red;
+}
+
+.loss:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+
+.win:hover {
+  background-color: whitesmoke;
+  color: #74B72E;
+
+}
+
+/* Trophy */
+
+.leftTrophy,
+.rightTrophy {
+  font-size: 14rem;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  transition: 1s;
+}
+
+.leftTrophy {
+  left: 5%;
+}
+
+.rightTrophy {
+  right: 7%;
+}
